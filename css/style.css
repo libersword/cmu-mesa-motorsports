@@ -1,0 +1,578 @@
+/*General*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Nunito', sans-serif;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+a{
+    color:#fff;
+}
+
+.section-title{
+    padding-top:90px;
+    padding-bottom:50px;
+}
+
+.section-title h2{
+    position: relative;
+    text-align:center;
+    color:#66000;
+    font-size:32px;
+    text-transform: uppercase;
+}
+
+.section-title p{
+    color:#333;
+    font-size:18px;
+    line-height:29px;
+    font-weight:300;
+    text-align:left;
+    margin-top:30px;
+}
+/***********Header***********/
+
+
+/***Nav********/
+.navbar-default{
+    background-color:lightgrey;
+    z-index:110;
+    transition:all 1s;
+    -o-transition:all 1s;
+    -moz-transition:all 1s;
+    -web-transition:all 1s;
+    border-color:transparent;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color:maroon;
+    text-transform:capitalize;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color:white;
+}
+
+
+
+
+.header{
+    background-image: url("../images/car-shot.jpg");
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -webkit-background-size:cover;
+}
+
+.header-overlay{
+    background-color:rgba(31,31,31,0.50);
+    padding-bottom:300px;
+}
+.logo{
+    padding-bottom:50px;
+}
+
+.header-text h1{    
+    color:#fff;
+    font-size:5.8vw;
+    font-weight:200;
+    padding-top:100px;
+    text-transform: uppercase;
+
+}
+
+.header-text h2{
+    color:#fff;
+    font-size: 3.4vw;
+    font-weight:100;
+    text-transform: capitalize;
+    margin-bottom:20px;
+
+}
+
+.btn{
+    margin-top:90px;
+    margin-bottom:50px;
+}
+
+
+.btn-car,
+.btn-car:focus,
+.btn-car:active,
+.btn-car:visited{
+    background:transparent;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-size:2.8vw;
+    text-transform:uppercase;
+    border-radius:4px;
+    -webkit-transition:all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    text-decoration:none;
+}
+
+.btn-car:hover{
+    background-color:#660000;
+    color:white;
+}
+
+.btn-sponsor,
+.btn-sponsor:focus,
+.btn-sponsor:active,
+.btn-sponsor:visited{
+    color:#A9ADB0;
+    margin-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    text-transform:uppercase;
+    font-size: 3vw;
+    background:transparent;
+    transition: all 1s;
+    -webkit-transition:all, 1s;
+    -o-transition:all, 1s;
+    -moz-transition:all, 1s;
+    
+}
+
+.btn-sponsor:hover{
+    background-color:#660000;
+    color:white;
+}
+
+/***About ***/
+
+.about-car-solidworks img{
+    margin-top:45px;
+    margin-left:20px;
+}
+
+.detail-description h3{
+    text-transform:uppercase;
+    font-weight:300;
+    font-size:24px;
+    position:relative;
+    text-align:center;
+}
+
+/*****Car Carousel****/
+.the-car{
+    background-image:url(../images/car-rear-view.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -webkit-background-size:cover;
+    background-position:50% 50%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.the-car-overlay{
+    background-color:rgba(31, 31, 31, .75);
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.car-carousel-wrapper.carousel inner{
+    margin-top:20px;
+}
+
+.carousel-indicators{
+    bottom: -20px;
+}
+
+.carousel-inner{
+    margin-top:30px;
+}
+
+
+.carousel inner item img{
+    border-radius:1px;
+}
+
+.photo-descriptions-carousel{
+    color:#fff;
+    padding-bottom:70px;
+    font-weight: 100;
+}
+
+.photo-descriptions-carousel h2{
+    color:#fff;
+    text-transform:uppercase;
+    font-weight:300;
+    font-size:2.2vw;
+    margin-top:25px;
+}
+
+/************Specs Page*****************/
+.specs-wrapper{
+    padding-top:30px;
+    padding-bottom: 70px;
+}
+
+.left-specs-list{
+    position:relative;
+    padding-right:90px;
+    margin-bottom:60px;
+    text-align:right;
+    margin-top:20px;
+}
+
+.left-specs-list h3{
+    text-transform:uppercase;
+    font-size:24px;
+    font-weight:400;
+    margin-bottom:15px;
+    color:#333;
+}
+
+.left-specs-list p{
+    color:#333;
+    font-size:16px;
+    font-weight:200;
+    line-height: 25px;
+    font-style:italic;
+    padding-bottom:50px;
+}
+
+.specs-car{
+    margin-top:-70px;
+}
+
+.specs-car img{
+    width:100%;
+}
+
+.right-specs-list{
+    position:relative;
+    padding-left:90px;
+    margin-bottom:60px;
+    text-align:left;
+    margin-top:20px;
+}
+
+.right-specs-list h3{
+    color:#333;
+    font-size:24px;
+    font-weight:400;
+    margin-bottom:15px;
+    text-transform:uppercase;
+}
+
+.right-specs-list p{
+    color:#333;
+    font-size:16px;
+    font-weight:200;
+    line-height:25px;
+    font-style:italic;
+    padding-bottom:50px;
+}
+
+/***********Video Page ***************/
+
+.video-page{
+    background-image: url("../images/car-with-driver.JPG");
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -webkit-background-size:cover;
+
+}
+
+.video-page-overlay{
+    height:inherit;
+    background-color:rgba(31,31,31,0.50);
+    padding-bottom:75px;
+}
+
+.video-page iframe{
+    margin-top:20px;
+    margin-bottom:50px;
+    padding-top:40px;
+    padding-right:10px;
+    padding-left:100px;
+    
+}
+
+/***********Sponsorship Slider ******/
+
+.sponsor-slider-wrapper.carousel inner{
+    margin-top:20px;
+}
+
+.carousel-indicators{
+    bottom: -20px;
+}
+
+.carousel-indicators li{
+    border-color:#333;
+}
+
+.carousel-inner{
+    margin-top:30px;
+}
+
+
+.carousel inner item img{
+    border-radius:1px;
+}
+
+.photo-descriptions-slider{
+    color:#333;
+    padding-bottom:70px;
+    font-weight: 100;
+}
+
+.photo-descriptions-slider h2{
+    color:#333;
+    text-transform:uppercase;
+    font-weight:300;
+    font-size:32px;
+    margin-top:25px;
+}
+.photo-descriptions-slider h3{
+    color:#333;
+    text-transform:uppercase;
+    font-weight:300;
+    font-size:24px;
+    margin-top:25px;
+}
+
+/*************Contact Us*************/
+
+.contact-us{
+        background-color:lightgray;
+        margin-top:20px;
+}
+.contact-us-form .form-control{
+    display:block;
+    width:100%;
+    height:50px;
+    padding: 6px 12px;
+    font-size:14px;
+    line-height:21px;
+    color:#333;
+    border: 1px solid #660000;
+    border-radius:3px;
+    margin-bottom:10px;
+    
+}
+
+#message{
+    height:117px;
+    resize:none;
+}
+
+.submit-btn{
+    width:100%;
+    height:50px;
+    margin-top:0px;
+}
+
+.submit-btn:hover{
+    background:#660000;
+    color:#fff;
+}
+
+.social-media-icons{
+    padding-top:50px;
+    padding-bottom:70px;
+}
+
+.social-media-icons ul{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.social-media-icons ul li{
+    list-style: none;
+    display:inline;
+    padding-left:10px;
+}
+
+.social-media-icons ul li a{
+    text-decoration: none;
+    display:inline-block;
+    text-align:center;
+    border: 1px solid #aeaeae;
+    border-radius:3px;
+    width:40px;
+    height:40px;
+    line-height:50px;
+    color:#9d9d9d;
+}
+
+.social-media-icons ul li a:hover{
+    background-color:#660000;
+    border:1px solid #660000;
+    color:#fff;
+}
+
+.social-media-icons ul li a i{
+    font-size:20px;
+}
+
+.footer{
+    background-color:black;
+    color:#fff;
+}
+
+
+/************* Competition***********************/
+.michigan-header{
+    background-image:url(../images/michigan-working-on-car.jpg);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -webkit-background-size:cover;
+}
+
+.michigan-overlay{
+        background-color:rgba(31, 31, 31, .75);
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.michigan-header h2{
+    color:#fff;
+    font-size:4.8vw;
+    font-weight:200;
+    padding-top:100px;
+    text-transform: uppercase;
+
+}
+
+.michigan-header p{
+    color:#fff;
+    font-size: 16px;
+    line-height:40px;
+    font-weight:100;
+    margin-bottom:20px;
+
+}
+
+.events-wrapper{
+    padding-top:30px;
+    padding-bottom: 70px;
+}
+
+.left-events-list{
+    position:relative;
+    padding-right:90px;
+    margin-bottom:60px;
+    margin-top:20px;
+}
+
+.left-events-list h3{
+    text-transform:uppercase;
+    font-size:24px;
+    font-weight:400;
+    margin-bottom:15px;
+    color:#333;
+}
+
+.left-events-list p{
+    color:#333;
+    font-size:16px;
+    font-weight:200;
+    line-height: 25px;
+    font-style:italic;
+    padding-bottom:50px;
+}
+
+.right-events-list{
+    position:relative;
+    margin-right:90px;
+    margin-bottom:60px;
+    text-align:left;
+    margin-top:20px;
+}
+
+.right-events-list h3{
+    color:#333;
+    font-size:24px;
+    font-weight:400;
+    margin-bottom:15px;
+    text-transform:uppercase;
+}
+
+.right-events-list p{
+    color:#333;
+    font-size:16px;
+    font-weight:200;
+    line-height:25px;
+    font-style:italic;
+    padding-bottom:50px;
+}
+
+.lincoln-header{
+    background-image:url(../images/connor-michigan.jpg);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:50% 50%;
+    background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -webkit-background-size:cover;
+}
+
+.lincoln-overlay{
+        background-color:rgba(31, 31, 31, .75);
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.lincoln-header h2{
+    color:#fff;
+    font-size:4.8vw;
+    font-weight:200;
+    padding-top:100px;
+    text-transform: uppercase;
+
+}
+
+.lincoln-header p{
+    color:#fff;
+    font-size: 16px;
+    line-height:40px;
+    font-weight:100;
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
